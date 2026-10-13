@@ -1,0 +1,14 @@
+# Language detection rules
+build/* linguist-vendored  
+**/*.js linguist-detectable 
+vendor/* linguist-vendored
+docs/* linguist-vendored
+
+src/**/*.js linguist-detectable
+*.min.js linguist-generated 
+*.sh text eol=lf
+
+go.sum linguist-generated
+
+package-lock.json linguist-generated
+# eof 2d8a0bb6
